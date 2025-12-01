@@ -1,0 +1,97 @@
+/* DARK MODE NEON BLUE PORTFOLIO */
+
+/* BODY */
+body {
+  background-color: #0a0a23; /* very dark navy */
+  color: #a0f0ff; /* neon blue text */
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+/* NAVIGATION */
+.nav-link {
+  color: #00f0ff;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 0 15px;
+  text-shadow: 0 0 5px #00f0ff, 0 0 10px #00bfff;
+  transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+  text-shadow: 0 0 15px #00f0ff, 0 0 25px #00bfff;
+  transform: translateY(-2px);
+}
+
+/* HEADINGS */
+h1, h2, h3 {
+  color: #00e6ff;
+  text-shadow: 0 0 10px #00e6ff, 0 0 20px #00bfff;
+  margin: 20px 0;
+}
+
+/* BUTTONS */
+.btn, .project-btn, .hackathons-btn {
+  background-color: #00163d;
+  color: #00e6ff;
+  padding: 12px 25px;
+  margin: 10px;
+  border-radius: 25px;
+  font-weight: 600;
+  display: inline-block;
+  text-decoration: none;
+  box-shadow: 0 5px 15px rgba(0, 230, 255, 0.5);
+  transition: all 0.3s ease-in-out;
+}
+
+.btn:hover, .project-btn:hover, .hackathons-btn:hover {
+  box-shadow: 0 5px 25px rgba(0, 255, 255, 0.7);
+  transform: translateY(-3px);
+}
+
+/* SKILL BOXES */
+.skill-box {
+  display: inline-block;
+  background-color: #00163d;
+  color: #00e6ff;
+  padding: 8px 20px;
+  margin: 6px;
+  border-radius: 50px;
+  box-shadow: 0 3px 15px rgba(0, 230, 255, 0.5);
+  transition: all 0.3s ease-in-out;
+}
+
+.skill-box:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 5px 20px rgba(0, 255, 255, 0.7);
+}
+
+/* PROFILE IMAGE */
+.profile-img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  margin: 25px auto;
+  border: 3px solid #00e6ff;
+  box-shadow: 0 5px 20px rgba(0, 230, 255, 0.5);
+}
+
+/* FOOTER */
+footer {
+  margin-top: 40px;
+  padding: 10px 0;
+  color: #00e6ff;
+  text-shadow: 0 0 5px #00e6ff, 0 0 15px #00bfff;
+}
+
+/* LINKS */
+a {
+  color: #00e6ff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-shadow: 0 0 10px #00e6ff, 0 0 20px #00bfff;
+}
